@@ -136,8 +136,12 @@ const App: React.FC = () => {
                     Portfolio & CV
                 </div>
                 
-                <h2 className="text-3xl md:text-5xl font-bold text-slate-900 tracking-tight mb-4 leading-tight">
-                    <span className="block text-slate-900">{PERSONAL_INFO.role}</span>
+                <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-2 tracking-tight leading-none">
+                    {PERSONAL_INFO.name}
+                </h1>
+
+                <h2 className="text-xl md:text-3xl font-bold text-slate-600 tracking-tight mb-6 leading-tight">
+                    {PERSONAL_INFO.role}
                 </h2>
                 
                 <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-6 max-w-2xl text-justify">

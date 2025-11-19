@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="bg-white/80 backdrop-blur-xl border border-white/20 shadow-2xl shadow-slate-900/10 rounded-full px-2 py-2 pointer-events-auto flex items-center gap-1"
+        className="bg-slate-200/90 backdrop-blur-xl border border-white/40 shadow-2xl shadow-slate-900/10 rounded-full px-2 py-2 pointer-events-auto flex items-center gap-1"
       >
         {navLinks.map((link) => {
           // Map link href to ID for active check
