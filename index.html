@@ -24,6 +24,15 @@
                 700: '#0369a1',
                 900: '#0c4a6e',
               }
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
             }
           }
         }
@@ -48,8 +57,6 @@
         scroll-behavior: smooth;
       }
     </style>
-
-<link rel="stylesheet" href="/index.css">
   <script type="importmap">
 {
   "imports": {
@@ -61,9 +68,8 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/portfolio/assets/index-CLRn-tgD.js"></script>
 </head>
-  <body class="bg-slate-50 text-slate-900 antialiased selection:bg-primary-100 selection:text-primary-900">
+  <body class="text-slate-900 antialiased selection:bg-primary-100 selection:text-primary-900">
     <div id="root"></div>
-</body>
+  </body>
 </html>
